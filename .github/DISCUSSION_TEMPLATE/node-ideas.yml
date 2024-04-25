@@ -7,15 +7,6 @@ body:
         ## Share Your Idea Related to the Validator Node and the Omni Network!
         Have an idea for improving the node or network with a new feature? Fill out the details below to share it with the community.
 
-  - type: input
-    id: idea-title
-    attributes:
-      label: Idea Title
-      description: Give a concise title for your idea.
-      placeholder: "Title of your idea"
-    validations:
-      required: true
-
   - type: textarea
     id: idea-description
     attributes:
