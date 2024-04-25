@@ -7,15 +7,6 @@ body:
         ## Cross-Chain Omni dApp Show and Tell
         Excited about something you've built or contributed to using Omni? Share your projects, discoveries, or any insightful experiences with the Omni community here!
 
-  - type: input
-    id: project-title
-    attributes:
-      label: Project Title
-      description: Provide a title for your project or what you're showcasing.
-      placeholder: "Title of your project or contribution"
-    validations:
-      required: true
-
   - type: textarea
     id: project-description
     attributes:
