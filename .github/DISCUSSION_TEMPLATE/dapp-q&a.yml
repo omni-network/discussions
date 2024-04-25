@@ -1,0 +1,31 @@
+labels: ["question", "help-wanted"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Need Help with Omni Cross-Chain dApp Development?
+        If you're encountering issues or need clarification on aspects of dApp development on Omni, please provide details so the community can help you out effectively.
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Detailed Description
+      description: Describe your issue or question in detail. Include what you've tried so far and any errors you're encountering.
+      placeholder: |
+        - What specific problem are you facing?
+        - What steps have you already taken to resolve it?
+        - Include any error messages or screenshots.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment-info
+    attributes:
+      label: Environment Information
+      description: Provide details about your development environment. This can include software versions, operating system, and other relevant configuration details.
+      placeholder: |
+        - Operating System:
+        - Other relevant software or tools:
+    validations:
+      required: false
