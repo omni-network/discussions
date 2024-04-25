@@ -1,0 +1,41 @@
+labels: ["show-and-tell", "community"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Cross-Chain Omni dApp Show and Tell
+        Excited about something you've built or contributed to using Omni? Share your projects, discoveries, or any insightful experiences with the Omni community here!
+
+  - type: input
+    id: project-title
+    attributes:
+      label: Project Title
+      description: Provide a title for your project or what you're showcasing.
+      placeholder: "Title of your project or contribution"
+    validations:
+      required: true
+
+  - type: textarea
+    id: project-description
+    attributes:
+      label: Project Description
+      description: Describe your project or contribution in detail. What does it do? How does it work? What technologies did you use? What challenges did you face and how did you overcome them?
+      placeholder: "Detail the project or contribution here."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-resources
+    attributes:
+      label: Additional Resources
+      description: "Links to repositories, documentation, or any other resources that might help others learn from your experience."
+      placeholder: "Add any relevant links or resources here."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Thanks for sharing!
+        Your contributions to the community are invaluable. We look forward to seeing what you've accomplished!
