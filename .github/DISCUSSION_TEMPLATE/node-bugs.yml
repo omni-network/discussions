@@ -1,0 +1,38 @@
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+        Please fill out the information below to help us address the issue more effectively.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please describe the bug. What did you expect to happen instead?
+      placeholder: "Detail the issue you encountered, explain what you ran and in what context, what you expected to find and what you found."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: "Please provide the steps to reproduce the issue."
+      placeholder: |
+        1. Git clone '...'
+        2. Run commands '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: "Please copy and paste any relevant log output. This will be automatically formatted as code."
+      render: markdown
+    validations:
+      required: false
