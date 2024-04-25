@@ -1,9 +1,5 @@
-name: Bug Report
-description: Use this form to report a bug you've encountered.
 title: "[Bug Report]: "
 labels: ["bug", "needs-triage"]
-assignees:
-  - idea404
 
 body:
   - type: markdown
