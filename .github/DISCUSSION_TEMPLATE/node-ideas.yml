@@ -1,0 +1,35 @@
+labels: ["idea", "discussion"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Share Your Idea Related to the Validator Node and the Omni Network!
+        Have an idea for improving the node or network with a new feature? Fill out the details below to share it with the community.
+
+  - type: input
+    id: idea-title
+    attributes:
+      label: Idea Title
+      description: Give a concise title for your idea.
+      placeholder: "Title of your idea"
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea-description
+    attributes:
+      label: Idea Description
+      description: Describe your idea in detail. What problem does it solve? How does it benefit the network?
+      placeholder: "Provide a detailed description of your idea here."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: "Any additional context, examples, or visual aids to support your idea? Links or references are welcome."
+      placeholder: "Add any further details or references that can help others understand your idea better."
+    validations:
+      required: false
